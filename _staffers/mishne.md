@@ -1,5 +1,5 @@
 ---
-name: Nishant Kheterpal
+name: Gal Mishne
 role: Instructor
 pronouns: he/him/his
 email: nkheterpal@ucsd.edu
