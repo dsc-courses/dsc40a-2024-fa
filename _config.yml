@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DSC 40A
-description: DSC 40A, Summer 2024 at UC San Diego
+description: DSC 40A, Fall 2024 at UC San Diego
 tagline: Theoretical Foundations of Data Science I
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dsc-courses.github.io" # the base hostname & protocol for your site, e.g. http://example.com
