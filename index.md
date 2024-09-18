@@ -13,6 +13,8 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
+**This website is in progress and all content is subject to change.** 
+
 [Jump to the current week](#week-5-conditional-independence-naïve-bayes-and-classification-br-small-read-this-note-on-a-href-conditional-independence-conditional-independence-a-small){: .btn } [Assignment Solutions](https://edstem.org/us/courses/61623/discussion/5141768){: .btn .btn-purple }
 
 <!-- {: .green }
