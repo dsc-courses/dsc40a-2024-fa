@@ -218,9 +218,10 @@ If you already have accommodations via OSD, please make sure that we receive you
 We are committed to creating an inclusive learning environment in which individual differences are respected and all students feel comfortable. If you have any suggestions as to how we could create a more inclusive setting, please let us know.
 We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the [UCSD Principles of Community](https://ucsd.edu/about/principles.html). Please understand that others’ backgrounds, perspectives and experiences may be different than your own, and help us to build an environment where everyone is respected and able to thrive.
 
-### Satisfactory Academic Progress (SAP) 
+### Satisfactory Academic Progress 
 
-[SAP](https://fas.ucsd.edu/forms-and-resources/sap/index.html) refers to the academic standards students must maintain to remain eligible for federal, state, and institutional financial aid. If you are receiving financial aid, please ensure you review the [SAP requirements and the appeals process](https://fas.ucsd.edu/forms-and-resources/sap/index.html).
+Satisfactory Academic Progress [(SAP)](https://fas.ucsd.edu/forms-and-resources/sap/index.html) refers to the academic standards students must maintain to remain eligible for federal, state, and institutional financial aid. If you are receiving financial aid, please ensure you review the [SAP requirements and the appeals process](https://fas.ucsd.edu/forms-and-resources/sap/index.html).
+
 ---
 
 ## Acknowledgements 🙏
