@@ -76,7 +76,7 @@ Your worksheet is due to Gradescope on **Mondays at 11:59PM**. Only one member o
 
 ### Homeworks
 
-This class will have weekly homework assignments, which will usually be due to Gradescope on Thursdays at 11:59PM.
+This class will have weekly homework assignments, which will usually be due to Gradescope on Fridays at 11:59PM.
 
 Homeworks should be written or typed up and turned in by each student individually. If you want to type up your answers, we will provide a LaTeX template through Overleaf; click the 🍃 emoji next to each homework on the homepage to access the template. Follow [these instructions](https://www.overleaf.com/learn/how-to/Copying_a_project#Making_a_copy_of_a_project) to make a copy of the template, and then add your solutions.
 
@@ -118,7 +118,7 @@ To summarize, here's what a typical week will look like in the course (there may
 
 There will be one Midterm Exam and one Final Exam, both held in person.
 
-- **Midterm Exam**: Date TBD, in person, during lecture slot in Center Hall 105.
+- **Midterm Exam**: Monday November 4th, in person, during lecture slot in Center Hall 105.
 - **Final Exam**: Tuesday, December 10th, 3:00PM-6:00PM, Location TBD.
 
 The Midterm Exam will be worth 20% of your overall course grade. The Final Exam will be worth 30% of your overall course grade and will be cumulative.
