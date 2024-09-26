@@ -1,5 +1,5 @@
 ---
-title: "Week 0 – Introduction to Modeling<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>, <a href='resources/notes/spread.pdf'>the spread notes</a>, and <a href='resources/notes/notes_chapter_2.pdf#page=1'>Note 2, Pages 1-7</a>.</small>"
+title: "Week 0 – Introduction to Modeling<br>"
 weekNumber: 0
 days:
   - date: "2024-09-27"
