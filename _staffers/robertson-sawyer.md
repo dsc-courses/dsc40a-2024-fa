@@ -1,6 +1,6 @@
 ---
 name: Sawyer Robertson
-role: Teaching Assistant
+role: TA
 pronouns: He/Him
 email: s5robert@ucsd.edu
 photo: assets/staff-images/sawyer.jpeg
