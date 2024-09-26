@@ -14,7 +14,7 @@ days:
       - name: SUR
         type: survey
         title: <b>Welcome Survey</b>
-        url: https://forms.gle/qA5xnzXiNZc55nii6
+        url: https://forms.gle/5YmaUuC8BELz7NW48
   - date: "2024-08-06"
     events:
       - name: LEC 2
