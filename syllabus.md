@@ -56,7 +56,7 @@ This course will include in-person lectures, groupwork sessions in discussion se
 
 ### Lecture
 
-Lecture will take place Monday, Wednesday, and Friday in Pepper Canyon 106 at 4pm. The lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
+Lecture will take place Monday, Wednesday, and Friday in Pepper Canyon Hall 106 at 4pm. The lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
 Lectures will be podcasted recordings will be available at [podcast.ucsd.edu](https://podcast.ucsd.edu/) within a few hours, and also posted on the course homepage.
 
