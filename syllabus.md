@@ -56,7 +56,7 @@ This course will include in-person lectures, groupwork sessions in discussion se
 
 ### Lecture
 
-Lecture will take place Monday, Wednesday, and Friday in Center Hall 105 at 4pm. The lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
+Lecture will take place Monday, Wednesday, and Friday in Pepper Canyon 106 at 4pm. The lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
 Lectures will be podcasted recordings will be available at [podcast.ucsd.edu](https://podcast.ucsd.edu/) within a few hours, and also posted on the course homepage.
 
@@ -118,7 +118,7 @@ To summarize, here's what a typical week will look like in the course (there may
 
 There will be one Midterm Exam and one Final Exam, both held in person.
 
-- **Midterm Exam**: Monday November 4th, in person, during lecture slot in Center Hall 105.
+- **Midterm Exam**: Monday November 4th, in person, during lecture slot in Pepper Canyon Hall 106.
 - **Final Exam**: Tuesday, December 10th, 3:00PM-6:00PM, Location TBD.
 
 The Midterm Exam will be worth 20% of your overall course grade. The Final Exam will be worth 30% of your overall course grade and will be cumulative.

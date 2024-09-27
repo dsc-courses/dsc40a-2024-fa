@@ -7,7 +7,7 @@ nav_order: 3
 
 # 📆 Calendar
 
-Lectures and discussions are all held in Center Hall (105 for lectures, 212 for discussion).
+Lectures and discussions are all held in Pepper Canyon (106 for lectures, 212 for discussion).
 
 Office hours are held in person in HDSI 155. 
 
