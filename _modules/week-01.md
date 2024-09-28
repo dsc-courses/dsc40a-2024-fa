@@ -8,6 +8,7 @@ days:
         type: lecture
         title: Introduction to Modeling
         blank: resources/lectures/lec01/lec01-blank.pdf
+        filled: resources/lectures/lec01/lec01-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/1
         reading:
       - name: SUR
