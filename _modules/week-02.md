@@ -10,8 +10,6 @@ days:
         blank: resources/lectures/lec02/lec02-blank.pdf
         filled: resources/lectures/lec02/lec02-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/2
-    - date: "2024-09-30"
-    events:
       - name: DISC 1
         type: disc
         title: Groupwork 1
