@@ -7,7 +7,7 @@ nav_order: 3
 
 # 📆 Calendar
 
-Lectures and discussions are all held in Pepper Canyon (106 for lectures, 212 for discussion).
+Lectures are all held in Pepper Canyon Hall 106 and discussion is held in Ledden Auditorium.
 
 Office hours are held in person in HDSI 155. 
 

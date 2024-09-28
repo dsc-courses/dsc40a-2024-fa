@@ -64,7 +64,7 @@ See the homepage of this website and the [Resources](../resources) tab for acces
 
 ### Discussion
 
-Discussion sections will be primarily used to facilitate problem-solving in small groups with peers. The discussion section will take place on Mondays in Center Hall 212 at 6pm.
+Discussion sections will be primarily used to facilitate problem-solving in small groups with peers. The discussion section will take place on Mondays in Ledden Auditorium at 6pm.
 
 We will provide a worksheet of problems, which you will complete in a group of two to four students. The groupwork should help reinforce concepts from the lecture and prepare you to do the upcoming homework assignment.
 
