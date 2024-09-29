@@ -9,7 +9,7 @@ nav_order: 3
 
 Lectures are all held in Pepper Canyon Hall 106 and discussion is held in Ledden Auditorium.
 
-Gals' and the tutors' office hours are held in person in HDSI 155. 
+Gal's and the tutors' office hours are held in person in HDSI 155. 
 
 Sawyer's office hours are located in HSS 5086, which is located just south of Ledden Auditorium.
 
