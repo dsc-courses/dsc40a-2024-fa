@@ -12,7 +12,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/2
       - name: DISC 1
         type: disc
-        title: Groupwork 1
+        title: Groupwork 1 (due Friday Oct. 4th)
         problems: resources/groupworks/gw01.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/2
 ---
