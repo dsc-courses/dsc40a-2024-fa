@@ -15,4 +15,12 @@ days:
         title: Groupwork 1 (due Friday Oct. 4th)
         problems: resources/groupworks/gw01.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/2
+  - date: "2024-09-30"
+    events:
+      - name: LEC 3
+        type: lecture
+        title: Empirical Risk Minimization
+        blank: resources/lectures/lec02/lec03-blank.pdf
+        filled: resources/lectures/lec02/lec03-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/3
 ---
