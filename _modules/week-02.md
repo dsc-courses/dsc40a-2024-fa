@@ -14,7 +14,7 @@ days:
         type: disc
         title: Groupwork 1 (due Friday Oct. 4th)
         problems: resources/groupworks/gw01.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/2
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a01
   - date: "2024-09-30"
     events:
       - name: LEC 3
