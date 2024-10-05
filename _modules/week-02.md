@@ -1,5 +1,5 @@
 ---
-title: "Week 1 – Loss Functions<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>.</small>"
+title: "Week 1 - Loss Functions<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>.</small>"
 weekNumber: 1
 days:
   - date: "2024-09-30"

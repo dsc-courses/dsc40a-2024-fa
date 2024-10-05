@@ -1,5 +1,5 @@
 ---
-title: "Week 0 – Introduction to Modeling<br>"
+title: "Week 0 - Introduction to Modeling<br>"
 weekNumber: 0
 days:
   - date: "2024-09-27"
