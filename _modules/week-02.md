@@ -31,9 +31,4 @@ days:
         blank: resources/lectures/lec04/lec04-blank.pdf
         filled: resources/lectures/lec04/lec04-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/4
-      - name: HW 1
-        type: hw
-        title: <b>Homework 1</b>
-        problems: resources/homeworks/hw01.pdf
-        template: https://www.overleaf.com/read/kvwfkgtvgkkk#dc5422
 ---
