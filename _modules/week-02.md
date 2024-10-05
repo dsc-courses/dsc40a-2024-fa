@@ -1,3 +1,4 @@
+---
 title: "Week 1 – Loss Functions<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>.</small>"
 weekNumber: 1
 days:
@@ -35,3 +36,4 @@ days:
         title: <b>Homework 1</b>
         problems: resources/homeworks/hw01.pdf
         template: https://www.overleaf.com/read/kvwfkgtvgkkk#dc5422
+---

@@ -1,3 +1,4 @@
+---
 title: "Week 0 – Introduction to Modeling<br>"
 weekNumber: 0
 days:
@@ -14,3 +15,4 @@ days:
         type: survey
         title: <b>Welcome Survey</b>
         url: https://forms.gle/5YmaUuC8BELz7NW48
+---
