@@ -1,5 +1,5 @@
 ---
-title: "Week 0 – Introduction to Modeling<br>"
+title: "Week 0 - Introduction to Modeling<br>"
 weekNumber: 0
 days:
   - date: "2024-09-27"
@@ -14,5 +14,5 @@ days:
       - name: SUR
         type: survey
         title: <b>Welcome Survey</b>
-        url:  https://forms.gle/5YmaUuC8BELz7NW48
+        url: https://forms.gle/5YmaUuC8BELz7NW48
 ---
