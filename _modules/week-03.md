@@ -17,7 +17,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a01/2
   - date: "2024-10-11"
     events:
-      - name: HW 1
+      - name: HW 1 due
         type: hw
         title: <b>Homework 1</b>
         problems: resources/homeworks/hw01.pdf
