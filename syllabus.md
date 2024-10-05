@@ -27,7 +27,7 @@ But how do we learn from data? This is the central question of DSC 40A. We will 
 
 ## Communication 💬
 
-This quarter, we'll be using [Ed](https://edstem.org/us/courses/66639/) as our course message board. You should be added to Ed automatically; if not, join using [this link](https://edstem.org/us/join/Tcwhj7). Please join right away as we'll be making all course announcements through Ed.
+This quarter, we'll be using [Ed](https://edstem.org/us/courses/61623) as our course message board. You should be added to Ed automatically; if not, join using [this link](https://edstem.org/us/join/Unpfcx). Please join right away as we'll be making all course announcements through Ed.
 
 If you have a question about anything to do with the course — if you're stuck on a problem, didn't understand something from lecture, want clarification on course logistics, or just have a general question about data science — you can make a post on Ed. We only ask that if your question includes some or all of an answer (even if you're not sure it's right), please make your post private so that others cannot see it. You can also post anonymously if you would prefer.
 
@@ -42,8 +42,8 @@ Please don't email staff members (and don't message them on social media), just 
 We will be using several websites this quarter. Here's what they're all used for:
 
 - [Course Website](https://dsc40a.com): Where all content will be posted.
-- [Ed](https://edstem.org/us/courses/66639/discussion/): Discussion forum for announcements and communication.
-- [Gradescope](https://www.gradescope.com/courses/865394): Platform for submitting assignments and viewing grades. You should be automatically added to Gradescope within 24 hours of enrolling.
+- [Ed](https://edstem.org/us/courses/61623/discussion/): Discussion forum for announcements and communication.
+- [Gradescope](gradescope.com/courses/814891): Platform for submitting assignments and viewing grades. You should be automatically added to Gradescope within 24 hours of enrolling.
 - [Datahub](https://datahub.ucsd.edu): UCSD's data science and machine learning platform, for coding in Jupyter notebooks.
 
 **Note that we will not be using Canvas at all.**
@@ -56,7 +56,7 @@ This course will include in-person lectures, groupwork sessions in discussion se
 
 ### Lecture
 
-Lecture will take place Monday, Wednesday, and Friday in Pepper Canyon Hall 106 at 4pm. The lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
+Lecture will take place Monday, Tuesday, Wednesday, and Thursday in Warren Lecture Hall 2208. Lecture is meant to introduce you to the main concepts of the course. Attendance is highly encouraged and positively correlated with success in the course, though it will not be required. Attending lecture gives you the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
 Lectures will be podcasted recordings will be available at [podcast.ucsd.edu](https://podcast.ucsd.edu/) within a few hours, and also posted on the course homepage.
 
@@ -64,19 +64,19 @@ See the homepage of this website and the [Resources](../resources) tab for acces
 
 ### Discussion
 
-Discussion sections will be primarily used to facilitate problem-solving in small groups with peers. The discussion section will take place on Mondays in Ledden Auditorium at 6pm.
+Discussion sections will be primarily used to facilitate problem-solving in small groups with peers. Discussion section will take place directly after lecture on Wednesdays in WLH 2208
 
 We will provide a worksheet of problems, which you will complete in a group of two to four students. The groupwork should help reinforce concepts from the lecture and prepare you to do the upcoming homework assignment.
 
-**Attendance at discussion section is required for full credit on the groupwork,  but if you cannot attend, you may complete the groupwork worksheet in a self-organized group of two to four students outside of the discussion section for 80 percent credit.**
+You can attend any discussion section, but if space fills up, priority will be given to students officially enrolled in that section. **Attendance at discussion section is required for full credit on the groupwork**. If you cannot attend or are taking DSC 40A as a remote student, email Nishant (nkheterpal@ucsd.edu) to organize a group of two to four students outside of the discussion section for full credit. To earn full credit on groupwork, you must form a group and reach out to course staff to let them know.
 
-If you have specific people that you want to work with, you may work together, otherwise, the tutors in discussion will pair you with other students.
+If you have specific people in your section that you want to work with, you may work together, otherwise, the tutors in discussion will pair you with other students.
 
-Your worksheet is due to Gradescope on **Mondays at 11:59PM**. Only one member of each group should submit the worksheet, and they should indicate the names of all group members on Gradescope. Worksheets won’t be graded on correctness, but rather on good-faith effort. Even if you don’t solve any of the problems, you should include some explanation of what you thought about and discussed, so that you can get credit for spending time on the assignment. **In order to receive credit, you must work in a group of two to four students for at least 50 minutes. You may not do the groupwork alone.**
+Your worksheet is due to Gradescope on **Wednesdays at 11:59PM**. Only one member of each group should submit the worksheet, and they should indicate the names of all group members on Gradescope. Worksheets won’t be graded on correctness, but rather on good-faith effort. Even if you don’t solve any of the problems, you should include some explanation of what you thought about and discussed, so that you can get credit for spending time on the assignment. **In order to receive credit, you must work in a group of two to four students for at least 50 minutes. You may not do the groupwork alone.**
 
 ### Homeworks
 
-This class will have weekly homework assignments, which will usually be due to Gradescope on Fridays at 11:59PM.
+This class will have regular homework assignments, which will due to Gradescope at regular intervals.
 
 Homeworks should be written or typed up and turned in by each student individually. If you want to type up your answers, we will provide a LaTeX template through Overleaf; click the 🍃 emoji next to each homework on the homepage to access the template. Follow [these instructions](https://www.overleaf.com/learn/how-to/Copying_a_project#Making_a_copy_of_a_project) to make a copy of the template, and then add your solutions.
 
@@ -94,7 +94,7 @@ As a result of this collaboration policy, students may have similar approaches t
 
 For each problem you submit, you should cite your sources by including a list of names of other students with whom you discussed the problem. Instructors do not need to be cited.
 
-We also highly encourage you to come to instructor and staff office hours for help on homework questions. The homework assignments for this class are quite challenging and most students are not able to successfully complete the homework from attending lecture alone. Make sure to use the resources provided on the [Resources](../resources) tab of the course website, actively participate in groupwork sessions, and plan to attend office hours at least once a week. Even if you don’t have specific questions, you will likely get a lot out of conversing about the material. See the [Calendar](../calendar) tab of the course website for the most up-to-date schedule of office hours, and directions for how to find us!
+We also encourage you to come to instructor and staff office hours for help on homework questions. The homework assignments for this class are quite challenging and most students are not able to successfully complete the homework from attending lecture alone. Make sure to use the resources provided on the [Resources](../resources) tab of the course website, actively participate in groupwork sessions, and plan to attend office hours at least once a week. Even if you don’t have specific questions, you will likely get a lot out of conversing about the material. See the [Calendar](../calendar) tab of the course website for the most up-to-date schedule of office hours, and directions for how to find us!
 
 You may post homework-related questions on Ed, though your questions (and answers) should be about approaches, not answers. If your question includes some or all of an answer (even if you're not sure it's right), you must make your post private so that others cannot see it. We are not able to tell you whether your answer is correct.
 
@@ -105,12 +105,12 @@ To get help on assignments and concepts, course staff will be hosting several of
 ### Weekly Schedule
 
 To summarize, here's what a typical week will look like in the course (there may be some deviations from this due to holidays and exams; the most up-to-date deadlines will be on the course homepage):
- 
+
 | Monday                    | Tuesday                  | Wednesday                 | Thursday | Friday                   |
 | ------------------------- | -------                  | ----------                | -------- | ------------------------ |
-| Lecture                   |                          | Lecture                   |          | Lecture                  |
+| Lecture                   | Lecture                  | Lecture                   | Lecture  |                          |
 |                           |                          | Discussion                |          |                          |
-| **Groupwork due 11:59PM** |                          |                           |          | **Homework due 11:59PM** |
+|                           | **Homework due 11:59PM** | **Groupwork due 11:59PM** |          | **Homework due 11:59PM** |
 
 ---
 
@@ -118,10 +118,10 @@ To summarize, here's what a typical week will look like in the course (there may
 
 There will be one Midterm Exam and one Final Exam, both held in person.
 
-- **Midterm Exam**: Monday November 4th, in person, during lecture slot in Pepper Canyon Hall 106.
-- **Final Exam**: Tuesday, December 10th, 3:00PM-6:00PM, Location TBD.
+- **Midterm Exam**: Thursday, August 22nd, in person, during lecture slot in Warren Lecture Hall 2208.
+- **Final Exam**: Friday, September 6th, 11:30AM-2:30PM, in Warren Lecture Hall 2113.
 
-The Midterm Exam will be worth 20% of your overall course grade. The Final Exam will be worth 30% of your overall course grade and will be cumulative.
+The Midterm Exam will be worth 20% of your overall course grade and will only cover content from Lectures 1-9. The Final Exam will be worth 30% of your overall course grade and will be cumulative.
 
 To prepare for exams, you should plan to spend a considerable amount of time working through past exam problems. We're building a bank of old exam problems, with detailed explanations, at [practice.dsc40a.com](https://practice.dsc40a.com).
 
@@ -146,17 +146,11 @@ Here's how we will compute your grade.
 | Midterm Exam | 20%    |                             |
 | Final Exam   | 30%    | see redemption policy above |
 
-### Late Policy, Slip Days and Drops
+### Late Policy, and Drops
 
-Each student has **four slip days** to use throughout the quarter. A slip day can be used to extend the deadline of a homework assignment by 24 hours. You can use at most one slip day on any single homework assignment. **Slip days can only be used for homework assignments.**
+Late work is not accepted in this course, due to the rapid pace. However, under extenuating circumstances, extensions will be granted. Email Nishant at least 24 hours before an assignment is due with an explanation to request an extension. **If you have something going on in your life that is impeding your ability to do your classwork on time, please reach out to us as soon as possible so we can work something out.** The sooner we hear from you, the more we can help.
 
-Slip days are applied automatically at the end of the quarter, and you don’t need to ask in order to use one. It’s your responsibility to keep track of how many you have left. If you run out of slip days and submit a homework late, it may still be graded so that you’ll see what questions you missed, but the grade will be changed to a zero at the end of the quarter. If you use more than four slip days, we will count the first four late assignments, and any late assignments after that will get zero scores.
-
-Slip days are designed to be a transparent and predictable source of leniency in deadlines. You can use a slip day if you are too busy to complete a homework on its original due date. But slips days are also meant for things like the internet going down at 11:58PM just as you go to submit your homework.
-
-**If you have something going on in your life that is impeding your ability to do your classwork on time, please reach out to us as soon as possible so we can work something out.**
-
-In addition to providing you with slip days, we will drop your lowest homework and lowest groupwork. This gives you some additional flexibility for unforeseen circumstances.
+We will drop your lowest homework and lowest groupwork. This gives you some additional flexibility for unforeseen circumstances.
 
 Students on the waitlist or who join the class late are expected to keep up with the work and submit assignments by the deadlines.
 
@@ -218,12 +212,8 @@ If you already have accommodations via OSD, please make sure that we receive you
 We are committed to creating an inclusive learning environment in which individual differences are respected and all students feel comfortable. If you have any suggestions as to how we could create a more inclusive setting, please let us know.
 We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the [UCSD Principles of Community](https://ucsd.edu/about/principles.html). Please understand that others’ backgrounds, perspectives and experiences may be different than your own, and help us to build an environment where everyone is respected and able to thrive.
 
-### Satisfactory Academic Progress 
-
-Satisfactory Academic Progress [(SAP)](https://fas.ucsd.edu/forms-and-resources/sap/index.html) refers to the academic standards students must maintain to remain eligible for federal, state, and institutional financial aid. If you are receiving financial aid, please ensure you review the [SAP requirements and the appeals process](https://fas.ucsd.edu/forms-and-resources/sap/index.html).
-
 ---
 
 ## Acknowledgements 🙏
 
-Thanks to other instructors of this course who have made various contributions, including but not limited to Suraj Rampure, Janine Tiefenbruck, Aobo Li, Yian Ma, and Justin Eldridge. Thanks also to the many tutors and TAs who have supported this course since its inception!
+Thanks to other instructors of this course who have made various contributions, including but not limited to Suraj Rampure, Janine Tiefenbruck, Aobo Li, Yian Ma, Gal Mishne, and Justin Eldridge. Thanks also to the many tutors and TAs who have supported this course since its inception!

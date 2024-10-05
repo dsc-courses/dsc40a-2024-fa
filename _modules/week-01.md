@@ -1,15 +1,15 @@
 ---
-title: "Week 0 – Introduction to Modeling<br>"
-weekNumber: 0
+title: "Week 1 – Modeling, Loss Functions, and Simple Linear Regression<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>, <a href='resources/notes/spread.pdf'>the spread notes</a>, and <a href='resources/notes/notes_chapter_2.pdf#page=1'>Note 2, Pages 1-7</a>.</small>"
+weekNumber: 1
 days:
-  - date: "2024-09-27"
+  - date: "2024-08-05"
     events:
       - name: LEC 1
         type: lecture
         title: Introduction to Modeling
         blank: resources/lectures/lec01/lec01-blank.pdf
         filled: resources/lectures/lec01/lec01-filled.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/1
+        podcast: https://podcast.ucsd.edu/watch/s224/dsc40a_a00/1
         reading:
       - name: SUR
         type: survey
