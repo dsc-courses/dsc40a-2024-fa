@@ -2,14 +2,6 @@
 title: "Week 1 - Loss Functions<br><small>📘 Read <a href='resources/notes/notes_chapter_1.pdf#page=1'>Note 1, Pages 1-12</a>,  <a href='https://xkcd.com/2435/'>xkcd</a>.</small>"
 weekNumber: 1
 days:
-  - date: "2024-10-11"
-      events:
-        - name: HW 2 due
-          type: hw
-          title: <b>Homework 2</b>
-          problems: resources/homeworks/hw02.pdf
-          template: https://www.overleaf.com/read/xxwjkskdvkdz#44be67
-
   - date: "2024-09-30"
     events:
       - name: LEC 2
