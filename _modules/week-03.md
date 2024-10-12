@@ -26,6 +26,11 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/6
   - date: "2024-10-11"
     events:
+      - name: LEC 7
+        type: lecture
+        title: Linear regression continued
+        filled: resources/lectures/lec07/lec07-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/7
       - name: HW 1 due
         type: hw
         title: <b>Homework 1</b>
