@@ -4,6 +4,12 @@ weekNumber: 3
 days:
   - date: "2024-10-14"
     events:
+      - name: LEC 8
+        type: lecture
+        title: Linear algebra
+        blank: resources/lectures/lec08/lec08-blank.pdf
+        filled: resources/lectures/lec08/lec08-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/8
       - name: DISC 3
         type: disc
         title: Groupwork 3
