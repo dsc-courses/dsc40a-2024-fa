@@ -6,7 +6,7 @@ days:
     events:
       - name: LEC 8
         type: lecture
-        title: Linear algebra
+        title: Linear algebra - vectors and dot product
         blank: resources/lectures/lec08/lec08-blank.pdf
         filled: resources/lectures/lec08/lec08-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/8
@@ -15,6 +15,13 @@ days:
         title: Groupwork 3
         problems: resources/groupworks/gw03.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a01/3
+  - date: "2024-10-18"
+    events:
+     - name: LEC 9
+        type: lecture
+        title: Linear algebra - span and projections
+        filled: resources/lectures/lec08/lec09-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/9
   - date: "2024-10-18"
     events:
       - name: HW 2 due
