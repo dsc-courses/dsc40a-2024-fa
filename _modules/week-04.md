@@ -17,7 +17,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a01/3
   - date: "2024-10-18"
     events:
-     - name: LEC 9
+      - name: LEC 9
         type: lecture
         title: Linear algebra - span and projections
         filled: resources/lectures/lec08/lec09-filled.pdf
