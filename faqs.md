@@ -13,7 +13,7 @@ Moving forward, we're going to **try** and update this page each week to provide
 
 Jump to:
 
-- [Week 3: Regression and Linear Algebra](#weeks3-regression-and-linear-algebra)
+- [Week 3: Linear Algebra](#weeks3-regression-and-linear-algebra)
 - [Week 2: Loss Functions, Center and Spread, and Simple Linear Regression](#week-2-loss-functions-center-and-spread-and-simple-linear-regression)
 
 ---
