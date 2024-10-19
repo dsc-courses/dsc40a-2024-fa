@@ -93,9 +93,9 @@ Finally we can plug in $$ \vec{e} = \vec{y}-X\vec{w}$$:
 
 $$X^T \left(\vec{y}-X\vec{w}\right)=\vec{0}$$
 
+#### Lecture(s) to Review:
 
-
-
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 
 ### When do two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$? When do $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$?
