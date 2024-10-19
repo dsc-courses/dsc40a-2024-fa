@@ -20,6 +20,84 @@ Jump to:
 
 ## Weeks 3: Linear Algebra
 
+
+### How did we get from set of equations in $$w_1$$ and $$w_2$$ to the normal equations?
+
+Our objective was to find a more compact formulation of the following set of equations:
+
+$$    \vec{x}^{(1)} \cdot \vec{e} = 0 $$   
+$$ \vec{x}^{(2)} \cdot \vec{e} = 0 $$
+
+Denote the vector $$\vec{0}$$ to be the vectors whose entries are all zero.
+Note that the set of equations can then be written in vector form as
+
+$$ \begin{bmatrix}
+      \vec{x}^{(1)} \cdot \vec{e}  \\ 
+  \vec{x}^{(2)} \cdot \vec{e} 
+  \end{bmatrix} = 
+  \begin{bmatrix}
+      0  \\ 
+ 0
+  \end{bmatrix} 
+  = \vec{0}
+$$ 
+
+The dot product $$\vec{a}\cdot \vec{b}$$ can also be written as $$\vec{a}^T\vec{b}$$, therefore:
+
+$$ 
+   \begin{bmatrix}
+      \vec{x}^{(1)} \cdot \vec{e}  \\ 
+  \vec{x}^{(2)} \cdot \vec{e} 
+  \end{bmatrix} = 
+  \begin{bmatrix}
+      (\vec{x}^{(1)})^T \vec{e}  \\ 
+  (\vec{x}^{(2)})^T  \vec{e} 
+  \end{bmatrix} 
+$$ 
+
+This vector can be written as the matrix-vector product of a matrix whose rows are the transpose of the column vectors $$\vec{x}^{(1)},  \vec{x}^{(2)}$$ and the error vector $$\vec{e}$$:
+
+$$ 
+ \begin{bmatrix}
+     \text{ ----- } (\vec{x}^{(1)})^T \text{ ----- } \\
+ \text{ ----- } (\vec{x}^{(2)})^T \text{ ----- }
+  \end{bmatrix} 
+   \vec{e} 
+  = \vec{0}
+$$ 
+
+The matrix whose rows are the transpose of the columns $$\vec{x}^{(1)},  \vec{x}^{(2)}$$ is the matrix 
+
+$$ 
+X^T = \begin{bmatrix}
+     \text{ ----- } (\vec{x}^{(1)})^T \text{ ----- } \\
+ \text{ ----- } (\vec{x}^{(2)})^T \text{ ----- }
+  \end{bmatrix} 
+$$ 
+
+Since we had earlier defined 
+
+$$ 
+X = \begin{bmatrix}
+\mid &  \mid \\
+\vec{x}^{(1)} & \vec{x}^{(2)} \\
+\mid &  \mid \\
+  \end{bmatrix}
+$$ 
+
+Thus we have simplified our set of equations to the form:
+
+$$X^T \vec{e} =\vec{0}$$
+
+Finally we can plug in $$ \vec{e} = \vec{y}-X\vec{w}$$:
+
+$$X^T \left(\vec{y}-X\vec{w}\right)=\vec{0}$$
+
+
+
+
+
+
 ### When do two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$? When do $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$?
 
 Two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$ when they are linearly independent (You cannot express one as a scalar multiple of the other). In other words, if $$\vec{u}$$ and $$\vec{v}$$ are two vectors in $$\mathbb{R}^2$$, they will span all of $$\mathbb{R}^2$$ if $$\vec{u}$$ and $$\vec{v}$$ are not collinear, or on the same line. 
