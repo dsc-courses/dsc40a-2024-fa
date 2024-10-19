@@ -31,7 +31,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/10
       - name: HW 2 due
         type: hw
-        title: <b>Homework 2</b>
+        title: <b>Homework 2 - DUE 10/19 &#64; 11:59PM</b>
         problems: resources/homeworks/hw02.pdf
         template: https://www.overleaf.com/read/xxwjkskdvkdz#44be67
 ---
