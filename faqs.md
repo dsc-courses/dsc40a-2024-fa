@@ -36,16 +36,16 @@ In higher dimensions, the same principle applies. For example, in $$\mathbb{R}^3
 
 #### Lecture(s) to Review:
 
-- [Lecture 8](https://dsc40a.com/resources/lectures/lec08/lec08-filled.pdf) 
+- [Lecture 9](https://dsc40a.com/resources/lectures/lec09/lec09-filled.pdf) 
 
 ### What does it mean for a matrix to be full rank?
 
 A matrix is full rank when each column in the matrix is linearly independent.
 
-In linear regression, the design matrix $$X$$ must be full rank to have a unique solution for the normal equations. If $$X$$ is not full rank, it implies multicollinearity among the features, which leads to an infinite amount of solutions when solving for the optimal parameters $$\vec{w}^*$$. For clarity:
+In linear regression, the matrix $$X$$ must be full rank to have a unique solution for the normal equations. If $$X$$ is not full rank, it implies multicollinearity among the features, which leads to an infinite amount of solutions when solving for the optimal parameters $$\vec{w}^*$$. For clarity:
 
 - **Full Rank:**  
-    If the design matrix $$X$$ is full rank, then all of its columns are linearly independent. This allows the normal equations:
+    If the matrix $$X$$ is full rank, then all of its columns are linearly independent. This allows the normal equations:
 
     $$
     X^T X \vec{w}^* = X^T \vec{y}
@@ -58,7 +58,7 @@ In linear regression, the design matrix $$X$$ must be full rank to have a unique
 
 #### Lecture(s) to Review:
 
-- [Lecture 8](https://dsc40a.com/resources/lectures/lec08/lec08-filled.pdf)
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec010/lec010-filled.pdf)
 
 ### What do you mean by "the inner dimensions need to match in order to perform matrix multiplication"?
 
@@ -95,7 +95,7 @@ If they do not, the dot product between the rows of $$A$$ and the columns of $$B
 - [Lecture 8](https://dsc40a.com/resources/lectures/lec08/lec08-filled.pdf)
 
 
-### Is there a more detailed version of the MSE proof shown in Lecture 9?
+### Is there a more detailed version of the MSE proof shown in Lecture 8?
 
 Yes. Here's a proof of the fact that $$R_\text{sq}(w_0^*, w_1^*) = \sigma_y^2 (1 - r^2)$$.
 
