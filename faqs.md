@@ -38,6 +38,85 @@ In higher dimensions, the same principle applies. For example, in $$\mathbb{R}^3
 
 - [Lecture 9](https://dsc40a.com/resources/lectures/lec09/lec09-filled.pdf) 
 
+### What is the projection of $$\vec{y}$$ onto $$\text{span}(\vec{x})$$ – is it $$w^*$$ or $$w^* \vec{x}$$?
+
+The orthogonal projection of the vector $$\vec{y}$$ onto the span of the vectors $$\{\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(n)}\}$$ is expressed as:
+
+$$
+X\vec{w}^*.
+$$
+
+Here, $$\vec{w}^*$$ is a vector of scalar coefficients ($$ w_1, w_2$$, etc.), and $$X$$ is the matrix whose columns are $$\{\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(n)}\}$$. In other words, $$\vec{w}^*$$ provides the specific coefficients with which to form a linear combination of the vectors such that the resulting vectors is in the span and is as close as possible to $$\vec{y}$$.
+
+So, to answer the question directly: $$w^* \vec{x}$$ is the projection of $$\vec{y}$$ onto $$\text{span}\{\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(n)}\}$$, and $$w^*$$ is the set of scalars used to make this projection when multiplied with $$\vec{x}$$
+
+#### Lecture(s) to Review:
+
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) (
+
+### Do the normal equations work even when there is only one column in the matrix $$X$$?
+
+Yes! Let's look at two different cases where this can occur.
+
+#### Case 1: $$X$$ is a column of ones
+
+If $$X$$ is a column of ones, the model $$H(\vec{x}) = w_0$$ fits a constant line through the data. Using the normal equations,
+
+$$
+\vec{1}^T \vec{1} w_0^* = \vec{1}^T \vec{y}.
+$$
+
+$$\vec{1}^T \vec{1} = n$$, where $$n$$ is the number of data points, and $$\vec{1}^T \mathbf{y} = \sum_{i=1}^n y_i$$. Thus, the normal equations become:
+
+$$
+n \cdot w_0^* = \sum_{i=1}^n y_i.
+$$
+
+And, solving for $$w_0^*$$, we get
+
+$$
+w_0^* = \frac{1}{n} \sum_{i=1}^n y_i,
+$$
+
+which is the mean of the target values.
+
+#### Case 2: $$X$$ has different values
+
+Now, let's imagine that $$X$$ is a column vector with different values for each data point, representing a single feature:
+
+$$
+X = \begin{bmatrix}
+x_1 \\
+x_2 \\
+\vdots \\
+x_n
+\end{bmatrix}.
+$$
+
+In this case, the model $$H(x) = w_1^*x$$ fits a line through the origin. The normal equations become
+
+$$
+X^T X w_1^* = X^T \vec{y}.
+$$
+
+Calculating the elements, we have
+
+$$
+\sum_{i=1}^n x_i^2 \cdot w_1^* = \sum_{i=1}^n x_i y_i,
+$$
+
+and the normal equations are reduced to
+
+$$
+w_1^* = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2}.
+$$
+
+So, to answer your question, we can absolutely use the normal equations when our matrix $$X$$ has only one column!
+
+#### Lecture(s) to Review:
+
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf)
+
 ### What does it mean for a matrix to be full rank?
 
 A matrix is full rank when each column in the matrix is linearly independent.
@@ -92,7 +171,24 @@ If they do not, the dot product between the rows of $$A$$ and the columns of $$B
 
 #### Lecture(s) to Review:
 
-- [Lecture 8](https://dsc40a.com/resources/lectures/lec08/lec08-filled.pdf)
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf)
+
+### What's the relationship between spans, projections, and multiple linear regression?
+
+#### Spans
+
+The **span** of a set of vectors $$\{\vec{x}_1, \vec{x}_2, \ldots, \vec{x}_d\}$$ is the set of all possible linear combinations of these vectors. In other words, the span defines a subspace in $$\mathbb{R}^n$$ that contains all possible combinations of the independent variables.
+
+$$
+\text{Span}\{\vec{x}_1, \vec{x}_2, \ldots, \vec{x}_d\} = \{w_1 \vec{x}_1 + w_2 \vec{x}_2 + \ldots + w_d \vec{x}_d\}.
+$$
+
+In the context of multiple linear regression, the span of the feature vectors represents all possible values that can be predicted using a linear combination of the feature vectors.
+
+#### Lecture(s) to Review:
+
+- [Lecture 9](https://dsc40a.com/resources/lectures/lec09/lec09-filled.pdf)
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 
 ### Is there a more detailed version of the MSE proof shown in Lecture 8?
