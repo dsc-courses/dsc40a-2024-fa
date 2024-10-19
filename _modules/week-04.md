@@ -24,6 +24,11 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/9
   - date: "2024-10-18"
     events:
+      - name: LEC 10
+        type: lecture
+        title: Linear algebra - matrices and projections
+        filled: resources/lectures/lec10/lec10-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/10
       - name: HW 2 due
         type: hw
         title: <b>Homework 2</b>
