@@ -52,7 +52,7 @@ So, to answer the question directly: $$w^* \vec{x}$$ is the projection of $$\vec
 
 #### Lecture(s) to Review:
 
-- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) (
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 ### Do the normal equations work even when there is only one column in the matrix $$X$$?
 
