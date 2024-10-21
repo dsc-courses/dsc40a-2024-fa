@@ -1,9 +1,15 @@
 ---
-title: Week 4
+title: "Week 4 - Multiple Linear regression and linear algebra<br><small>📘 Read <a href='resources/notes/notes_chapter_2.pdf#page=10'>Note 2, Pages 10-19</a>, <a href='https://xkcd.com/2048/'>xkcd</a>.</small>"
 weekNumber: 4
 days:
   - date: "2024-10-21"
     events:
+      - name: LEC 11
+        type: lecture
+        title: Regression and Linear algebra
+        blank: resources/lectures/lec11/lec11-blank.pdf
+        filled: resources/lectures/lec11/lec11-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/11
       - name: DISC 4
         type: disc
         title: Groupwork 4
