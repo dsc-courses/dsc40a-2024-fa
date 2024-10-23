@@ -22,7 +22,7 @@ days:
         title: Multiple Linear Regression
         blank: resources/lectures/lec12/lec12-blank.pdf
         filled: resources/lectures/lec12/lec12-filled.pdf
-        video: https://drive.google.com/file/d/10BvXnmkdFiUyNbX_Y0z1RbPVkc1OU8iD/view?usp=sharing
+        podcast: https://drive.google.com/file/d/10BvXnmkdFiUyNbX_Y0z1RbPVkc1OU8iD/view?usp=sharing
   - date: "2024-10-25"
     events:
       - name: HW 3 due
