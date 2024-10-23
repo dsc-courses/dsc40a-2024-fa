@@ -159,24 +159,6 @@ So, to answer your question, we can absolutely use the normal equations when our
 - [Lecture 8](https://dsc40a.com/resources/lectures/lec08/lec08-filled.pdf)
 
 
-### When do two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$? When do $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$?
-
-Two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$ when they are linearly independent (You cannot express one as a scalar multiple of the other). In other words, if $$\vec{u}$$ and $$\vec{v}$$ are two vectors in $$\mathbb{R}^2$$, they will span all of $$\mathbb{R}^2$$ if $$\vec{u}$$ and $$\vec{v}$$ are not collinear, or on the same line. 
-
-Similarly, $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$ when they are linearly independent. This means that no vector in the set can be expressed as a linear combination of the others.
-
-**Intuition**
-
-To span a space means to cover it entirely.
-
-Think of two vectors in $$\mathbb{R}^2$$. If one vector is a scalar multiple of the other, then they both point in the same direction or opposite directions, essentially lying on the same line. This means they can only cover that line and cannot cover any other directions.
-
-In higher dimensions, the same principle applies. For example, in $$\mathbb{R}^3$$, three linearly independent vectors point in different directions and can cover all of three-dimensional space. However, if one is a linear combination of the others, then the three vectors lie on the same plane, and can only span that plane.
-
-#### Lecture(s) to Review:
-
-- [Lecture 6](https://dsc40a.com/resources/lectures/lec06/lec06-filled.pdf) (Slide 26)
-
 ### When $$X^TX$$ isn't invertible, how do we solve the normal equations?
 
 When $$X^TX$$, we cannot solve the normal equations using traditional methods. That is, if we cannot invert $$X^TX$$, we cannot solve $$w = (X^\mathrm{T}X)^{-1}X^\mathrm{T}y$$. 
@@ -186,28 +168,6 @@ Generally, this situation arises when one of the columns of our design matrix $$
 #### Lecture(s) to Review:
 
 - [Lecture 7](https://dsc40a.com/resources/lectures/lec07/lec07-filled.pdf) (Slide 34)
-
-### What does it mean for a matrix to be full rank?
-
-A matrix is full rank when each column in the matrix is linearly independent.
-
-In linear regression, the design matrix $$X$$ must be full rank to have a unique solution for the normal equations. If $$X$$ is not full rank, it implies multicollinearity among the features, which leads to an infinite amount of solutions when solving for the optimal parameters $$\vec{w}^*$$. For clarity:
-
-- **Full Rank:**  
-    If the design matrix $$X$$ is full rank, then all of its columns are linearly independent. This allows the normal equations:
-
-    $$
-    X^T X \vec{w}^* = X^T \vec{y}
-    $$
-
-    to have a unique solution.
-
-- **Not Full Rank:**  
-    If $$X$$ is not full rank, then some columns of $$X$$ are linear combinations of other columns. This leads to multicollinearity, which results in infinitely many solutions for the normal equations.
-
-#### Lecture(s) to Review:
-
-- [Lecture 7](https://dsc40a.com/resources/lectures/lec07/lec07-filled.pdf)
 
 
 ### In multiple linear regression, is $$\vec{h}^*$$ orthogonal to $$\vec{y}$$?
@@ -262,3 +222,19 @@ $$
 $$
 
 In the context of multiple linear regression, the span of the feature vectors represents all possible values that can be predicted using a linear combination of the feature vectors.
+
+#### Projections
+
+A **projection** of the observation vector $$\vec{y}$$ onto the span of the feature vectors $$\{\vec{x}_1, \vec{x}_2, \ldots, \vec{x}_p\}$$ is any vector $$\vec{h}$$ that lies in this span.
+
+The distance between the observations and the projection of $$\vec{y}$$ into the span of the feature vectors represents the error of a prediction. That is, each projection of $$\vec{y}$$ into the span of the feature vectors is defined by scaling each of the feature vectors by a certain amount ($$w_1$$, $$w_2$$, etc.) and summing them; the distance from this linear combination of the feature vectors to the actual observed values of $$\vec{y}$$ is the error of a certain prediction.
+
+This error is written as
+
+$$
+\vec{e} = \vec{y} - X\vec{w}
+$$,
+
+where $$X$$ represents the design matrix made up of the feature vectors, and $$\vec{w}$$ represents the coefficients that you are scaling the feature vectors by to obtain some projection of $$\vec{y}$$ into the span of $$X$$.
+
+The **orthogonal projection** of $$\vec{y}$$ into $$X$$ is the one that minimizes the error vector (Or the distance between the predicted values of $$\vec{y}$$ and the actual values of $$\vec{y}$$).
