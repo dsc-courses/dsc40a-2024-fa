@@ -15,4 +15,5 @@ days:
         type: hw
         title: <b>Homework 4</b>
         problems: resources/homeworks/hw04.pdf
+        template: https://www.overleaf.com/read/mppszwkwnmqm#86c302
 ---
