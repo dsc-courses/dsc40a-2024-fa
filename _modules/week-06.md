@@ -4,6 +4,12 @@ weekNumber: 5
 days:
   - date: "2024-10-28"
     events:
+      - name: LEC 14
+        type: lecture
+        title: Gradient descent
+        blank: resources/lectures/lec14/lec14-blank.pdf
+        filled: resources/lectures/lec14/lec14-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/14
       - name: DISC 5
         type: disc
         title: Groupwork 5
