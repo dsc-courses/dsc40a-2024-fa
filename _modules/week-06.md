@@ -22,7 +22,7 @@ days:
         title: Gradient descent and convexity
         blank: resources/lectures/lec15/lec15-blank.pdf
         filled: resources/lectures/lec15/lec15-filled.pdf
-        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2024-fa&subPath=lectures/lecture14/lec14-code.ipynb
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2024-fa&subPath=lectures/lecture14/lec14_code.ipynb
         animations: resources/lectures/lec15
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/15
   - date: "2024-11-1"
