@@ -5,7 +5,7 @@ description: Animations for Lecture 15.
 nav_exclude: true
 ---
 
-# 🧮 Lecture 10 Animations
+# 🧮 Lecture 15 Animations
 
 To start an animation, first click the "⏯️ Stop animation" button and then click the "▶️ Start animation" button.
 
