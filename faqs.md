@@ -13,9 +13,9 @@ Moving forward, we're going to **try** and update this page each week to provide
 
 Jump to:
 
-- [Week 4: Multiple linear regression](#weeks4-multiple-linear-regression)
-- [Week 3: Linear Algebra](#weeks3-regression-and-linear-algebra)
-- [Week 2: Loss Functions, and Simple Linear Regression](#week-2-loss-functions-and-simple-linear-regression)
+- [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
+- [Week 3: Linear Algebra](#week3-linear-algebra)
+- [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
 
 ---
 
@@ -245,7 +245,7 @@ Generally, this situation arises when one of the columns of our design matrix $$
 - [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 
-## Weeks 3: Linear Algebra
+## Week 3: Linear Algebra
 
 
 ### How did we get from set of equations in $$w_1$$ and $$w_2$$ to the normal equations?
