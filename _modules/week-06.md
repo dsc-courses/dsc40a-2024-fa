@@ -15,6 +15,14 @@ days:
         title: Groupwork 5
         problems: resources/groupworks/gw05.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a01/5
+  - date: "2024-10-30"
+    events:
+      - name: LEC 15
+        type: lecture
+        title: Gradient descent and convexity
+        blank: resources/lectures/lec15/lec15-blank.pdf
+        filled: resources/lectures/lec15/lec15-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/15
   - date: "2024-11-1"
     events:
       - name: HW 4 due
