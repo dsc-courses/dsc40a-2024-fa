@@ -9,7 +9,6 @@ days:
         title: Foundations of Probability
         blank: resources/lectures/lec17/lec17-blank.pdf
         filled: resources/lectures/lec17/lec17-filled.pdf
-        animations: resources/lectures/lec17
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/17
   - date: "2024-11-08"
     events:
