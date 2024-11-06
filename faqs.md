@@ -14,7 +14,7 @@ Moving forward, we're going to **try** and update this page each week to provide
 Jump to:
 
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
-- [Week 3: Linear Algebra](#week3-linear-algebra)
+- [Week 3: Linear Algebra](#week-3-linear-algebra)
 - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
 
 ---
