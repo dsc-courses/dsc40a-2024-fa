@@ -14,6 +14,7 @@ days:
         title: Sampling
         blank: resources/lectures/lec19/lec19-blank.pdf
         filled: resources/lectures/lec19/lec19-filled.pdf
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2024-fa&subPath=lectures/lecture19/lec19-code.ipynb
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/19
       - name: DISC 6
         type: disc
