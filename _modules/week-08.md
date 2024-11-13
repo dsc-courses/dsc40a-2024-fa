@@ -1,5 +1,5 @@
 ---
-title: "Week 7"
+title: "Week 7 - Combinatorics"
 weekNumber: 7
 days:
   - date: "2024-11-1"
@@ -9,12 +9,24 @@ days:
         title: Veteran's Day
   - date: "2024-11-13"
     events:
+      - name: LEC 19
+        type: lecture
+        title: Sampling
+        blank: resources/lectures/lec19/lec19-blank.pdf
+        filled: resources/lectures/lec19/lec19-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/19
       - name: DISC 6
         type: disc
         title: Groupwork 6 - DUE 11/13
         problems: resources/groupworks/gw06.pdf
   - date: "2024-11-15"
     events:
+      - name: LEC 20
+        type: lecture
+        title: Combinatorics
+        blank: resources/lectures/lec20/lec20-blank.pdf
+        filled: resources/lectures/lec20/lec20-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/20
       - name: HW 5 due
         type: hw
         title: <b>Homework 5</b>
