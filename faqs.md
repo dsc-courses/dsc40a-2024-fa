@@ -22,7 +22,7 @@ Jump to:
 
 ## Week 5: Gradient decent
 
-### In the formal definition of convexity, how did we obtain the expression for the line segment between $f(a)$ and $f(b)$?
+### In the formal definition of convexity, how did we obtain the expression for the line segment between $$f(a)$$ and $$f(b)$$?
 
 First we want to define a position $$x(t)$$ on the $$x$$ axis at time $$t$$, where $$0 \leq t \leq 1$$.
 
