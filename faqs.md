@@ -13,9 +13,56 @@ Moving forward, we're going to **try** and update this page each week to provide
 
 Jump to:
 
+- [Week 5: Gradient descent](#week-5-gradient-decent)
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
 - [Week 3: Linear Algebra](#week-3-linear-algebra)
 - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
+
+--- 
+
+## Week 5: Gradient decent
+
+### In the formal definition of convexity, how did we obtain the expression for the line segment between $f(a)$ and $f(b)$?
+
+First we want to define a position $x(t)$ on the $x$ axis at time $t$, where $0 \leq t leq 1$.
+
+At time $t=0$ we're at $a$, so $x(0)=a$.
+
+At time $t=1$ we're at $b$, so $x(1)=b$.
+
+This formula satisifies these conditions: 
+$$x(t) = a + (b-a)t = a(1-t) + bt $$
+
+To obtain an expression for the line segment, recall a line is defined as 
+$$y(t) = w_1 t + w_0 $$
+
+where $w_1$ is the slope of the line and $w_0$ is the intercept.
+
+We have conditions: $y(a)=y(x(t=0))=f(a)$ and $y(b)=y(x(t=1))=f(b)$, so that the line segment intersects the functions $f(x)$.
+
+Plug in $t=0$:
+$$y(a)=y(x(t=0))=w_1 \cdot 0 + w_0 = w_0 = f(a)$$
+
+Plug in $t=1$
+$$y(b)=y(x(t=1))=w_1 \cdot 1 + w_0 = w_1+ w_0= w_1+ f(a)=f(b)$$
+$$w_1 = f(b)-f(a)$$
+
+Overall we get
+
+$$y(t) = (f(b)-f(a))t+f(a)= f(a)(1-t)+f(b)t$$
+
+For the function, at any given point $a \leq x(t) \leq b$:
+
+$$f(x(t)) = f(a(1-t)+bt)$$
+
+And the convexity condition is then, that for any point $a \leq x(t) \leq b$, the line segment needs to be above or equal to the function:
+
+$$y(x(t)) \geq f(x(t))$$
+$$ f(a)(1-t)+f(b)t \geq  f(a(1-t)+bt) $$
+
+
+
+
 
 ---
 
@@ -248,7 +295,7 @@ Generally, this situation arises when one of the columns of our design matrix $$
 ## Week 3: Linear Algebra
 
 
-### How did we get from set of equations in $$w_1$$ and $$w_2$$ to the normal equations?
+### How did we get from set of equations in $$w_1$$ and $$w_2$$ to the normal equations using orthogonality of the error vector?
 
 Our objective was to find a more compact formulation of the following set of equations:
 
