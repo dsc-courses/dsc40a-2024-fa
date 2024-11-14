@@ -9,7 +9,7 @@ days:
         title: Foundations of Probability
         blank: resources/lectures/lec17/lec17-blank.pdf
         filled: resources/lectures/lec17/lec17-filled.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/17
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/18
   - date: "2024-11-08"
     events:
       - name: LEC 18
@@ -17,5 +17,5 @@ days:
         title: Conditional probability
         blank: resources/lectures/lec18/lec18-blank.pdf
         filled: resources/lectures/lec18/lec18-filled.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/18
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/19
 ---
