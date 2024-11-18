@@ -7,7 +7,7 @@ days:
       - name: LEC 21
         type: lecture
         title: Combinatorics continued
-        blank: resources/lectures/lec20/lec20-blank.pdf
+        blank: resources/lectures/lec21/lec21-blank.pdf
         filled: resources/lectures/lec21/lec21-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/22
       - name: DISC 7
