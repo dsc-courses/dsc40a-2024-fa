@@ -2,7 +2,7 @@
 title: "Week 7 - Combinatorics"
 weekNumber: 7
 days:
-  - date: "2024-11-1"
+  - date: "2024-11-11"
     events:
       - name: CANCELLED
         type: lecture
