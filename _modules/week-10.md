@@ -1,4 +1,3 @@
-
 ---
 title: "Week 9 - Bayes Classifier"
 weekNumber: 9
