@@ -1,4 +1,3 @@
-
 ---
 title: "Week 9 - Bayes Classifier"
 weekNumber: 9
@@ -9,4 +8,5 @@ days:
         type: hw
         title: <b>Homework 6</b>
         problems: resources/homeworks/hw06.pdf
+        template: https://www.overleaf.com/read/jgpvpyzsyqks#e91e64
 ---
