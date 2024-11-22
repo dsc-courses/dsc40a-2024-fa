@@ -23,4 +23,12 @@ days:
         blank: resources/lectures/lec22/lec22-blank.pdf
         filled: resources/lectures/lec22/lec22-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/23
+  - date: "2024-11-22"
+    events:
+      - name: LEC 23
+        type: lecture
+        title: Bayes Theorem and Independence
+        blank: resources/lectures/lec23/lec23-blank.pdf
+        filled: resources/lectures/lec23/lec23-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/24
 ---
