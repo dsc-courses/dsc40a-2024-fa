@@ -2,7 +2,6 @@
 title: "Week 9 - Bayes Classifier"<br><small> 📘 <a href='https://xkcd.com/2545/'>xkcd</a>,  <a href='https://xkcd.com/1236/'>xkcd</a>, <a href='https://xkcd.com/2059/'>xkcd</a> .</small>"
 weekNumber: 9
 days:
-days:
   - date: "2024-11-25"
     events:
       - name: LEC 24
