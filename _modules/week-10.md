@@ -24,7 +24,7 @@ days:
     events:
       - name: LEC 25
         type: lecture
-        title: Naive Bayes CLassifier and text Classification
+        title: Naive Bayes Classifier and text classification
         blank: resources/lectures/lec25/lec25-blank.pdf
         filled: resources/lectures/lec25/lec25-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/26
