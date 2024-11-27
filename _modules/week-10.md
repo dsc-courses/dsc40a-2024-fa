@@ -20,4 +20,12 @@ days:
         title: <b>Homework 6</b>
         problems: resources/homeworks/hw06.pdf
         template: https://www.overleaf.com/read/jgpvpyzsyqks#e91e64
+  - date: "2024-11-27"
+    events:
+      - name: LEC 25
+        type: lecture
+        title: Naive Bayes CLassifier and text Classification
+        blank: resources/lectures/lec25/lec25-blank.pdf
+        filled: resources/lectures/lec25/lec25-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/26
 ---
