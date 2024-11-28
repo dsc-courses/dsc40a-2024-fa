@@ -1,5 +1,5 @@
 ---
-title: "Week 10 - Classification<br><small> 📘 <a href='https://xkcd.com/2545/'>xkcd</a>,  <a href='https://xkcd.com/1236/'>xkcd</a>, <a href='https://xkcd.com/2059/'>xkcd</a> .</small>"
+title: "Week 10 - Classification"
 weekNumber: 10
 days:
   - date: "2024-12-06"
