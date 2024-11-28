@@ -8,5 +8,5 @@ days:
         type: hw
         title: <b>Homework 7</b>
         problems: resources/homeworks/hw07.pdf
-        template: https://www.overleaf.com/read/vdzhhzyyyqwx#d7b95c
+        template: https://www.overleaf.com/read/mqfjvfngmncg#b7ed95
 ---
