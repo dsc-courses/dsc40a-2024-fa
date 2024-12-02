@@ -31,7 +31,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/29
       - name: HW 7 due
         type: hw
-        title: <b>Homework 7</b>
+        title: <b>Homework 7 - NO SLIP DAY</b>
         problems: resources/homeworks/hw07.pdf
         template: https://www.overleaf.com/read/mqfjvfngmncg#b7ed95
 ---
