@@ -6,7 +6,7 @@ days:
     events:
       - name: LEC 24
         type: lecture
-        title: Bayes Theorem and Naive Bayes CLassifier
+        title: Bayes Theorem and Naive Bayes Classifier
         blank: resources/lectures/lec24/lec24-blank.pdf
         filled: resources/lectures/lec24/lec24-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/25

@@ -6,7 +6,7 @@ days:
     events:
       - name: LEC 26
         type: lecture
-        title: Naive Bayes CLassifier and clustering
+        title: Naive Bayes Classifier and clustering
         blank: resources/lectures/lec26/lec26-blank.pdf
         filled: resources/lectures/lec26/lec26-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/27
