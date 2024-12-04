@@ -28,7 +28,7 @@ Jump to:
 
 In Naive Bayes, we want to compare the probability of a data point with given features belonging to different classes. The denominator, P(features), is the same for all classes and acts as a normalization factor. Since we're only comparing relative probabilities, we can safely ignore this denominator without affecting the classification outcome.
 
-Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator (P(features|class) * P(class)) is the most likely class for the given data point.
+Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator P(features $$\vert$$ class) * P(class) is the most likely class for the given data point.
 
 #### Lecture(s) to Review:
 
@@ -42,10 +42,10 @@ $$ P(A|B) = \frac{P(B|A)  P(A)}{ P(B)} $$
 
 Let's break down the components:
 
-- $$P(A|B)$$: Posterior probability - the probability of event A occurring given that event B has occurred.
-- $$P(B|A)$$: Likelihood - the probability of observing event B given that event A is true.
-- $$P(A)$$: Prior probability - the probability of event A occurring before observing any new evidence.
-- $$P(B)$$: Marginal probability (also called the evidence) - the probability of observing event B, regardless of whether A is true or false.
+- $$P(A \vert B)$$ Posterior probability - the probability of event A occurring given that event B has occurred.
+- $$P(B \vert A)$$ Likelihood - the probability of observing event B given that event A is true.
+- $$P(A)$$ Prior probability - the probability of event A occurring before observing any new evidence.
+- $$P(B)$$ Marginal probability (also called the evidence) - the probability of observing event B, regardless of whether A is true or false.
 
 **Why not divide by the prior, $$P(A)$$?**
 
