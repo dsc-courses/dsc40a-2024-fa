@@ -13,12 +13,147 @@ Moving forward, we're going to **try** and update this page each week to provide
 
 Jump to:
 
+- [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
+- [Week 7: Combinatorics](#week-7---combinatorics)
 - [Week 5: Gradient descent](#week-5-gradient-decent)
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
 - [Week 3: Linear Algebra](#week-3-linear-algebra)
 - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
 
 --- 
+
+## Week 9: Bayes' Theorem and Naive Bayes Classifier
+
+### Why can we disregard the denominator in the Naive Bayes classifier?
+
+In Naive Bayes, we want to compare the probability of a data point with given features belonging to different classes. The denominator, P(features), is the same for all classes and acts as a normalization factor. Since we're only comparing relative probabilities, we can safely ignore this denominator without affecting the classification outcome.
+
+Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator (P(features|class) * P(class)) is the most likely class for the given data point.
+
+#### Lecture(s) to Review:
+
+- [Lecture 25](https://dsc40a.com/resources/lectures/lec25/lec25-filled.pdf)
+
+### Why do we divide by the marginal probability and not the prior probability in Bayes' Theorem?
+
+In Bayes' theorem, we're aiming to calculate the posterior probability, which is the probability of an event occurring after observing new evidence. The formula is:
+
+P(A|B) = P(B|A) * P(A) / P(B)
+
+Let's break down the components:
+
+- **P(A|B)**: Posterior probability - the probability of event A occurring given that event B has occurred.
+- **P(B|A)**: Likelihood - the probability of observing event B given that event A is true.
+- **P(A)**: Prior probability - the probability of event A occurring before observing any new evidence.
+- **P(B)**: Marginal probability (also called the evidence) - the probability of observing event B, regardless of whether A is true or false.
+
+**Why not divide by the prior, P(A)?**
+
+The prior probability, P(A), represents our initial belief about the likelihood of event A. While it's important to consider our prior knowledge, it's not sufficient for calculating the posterior probability. We need to account for the new evidence, B, which is captured by the likelihood, P(B|A).
+
+**Why divide by the marginal, P(B)?**
+
+The marginal probability, P(B), acts as a normalization factor. It ensures that the posterior probability, P(A|B), is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by P(B), we're adjusting the likelihood and prior to account for the overall probability of observing B.
+
+In summary:
+
+- The prior tells us our initial belief.
+- The likelihood tells us how likely the evidence is given our belief.
+- The marginal tells us how likely the evidence is overall.
+- The posterior tells us how the belief has been updated given the evidence.
+
+By combining these three elements using Bayes' theorem, we can update our beliefs in light of new evidence.
+
+#### Lecture(s) to Review:
+
+- [Lecture 24](https://dsc40a.com/resources/lectures/lec24/lec24-filled.pdf)
+
+---
+
+## Week 7 - Combinatorics 
+
+### Permutations vs. Combinations
+
+**Permutations:**
+- Order matters The arrangement of items is important.
+- Example Choosing a president, vice president, and treasurer from a group of 10 people. The order in which they are chosen matters.
+- Formula: P(n,k) = n! / (n-k)!
+
+**Combinations:**
+- Order doesn't matter The arrangement of items doesn't matter.
+- Example: Choosing 3 people from a group of 10 to form a committee. The order in which they are chosen doesn't matter.
+- Formula: C(n,k) = n! / (k! * (n-k)!)
+
+#### How to decide when to use permutations and when to use combinations?
+
+Does the order matter?
+- If yes: use **permutations**.
+- If no: use **combinations**.
+
+#### Example:
+
+Let's say you have 5 books and you want to choose 3 of them to read.
+
+* If the order in which you read them matters (e.g., you want to read them in a specific sequence), you'd use **permutations**.
+* If the order doesn't matter (you just want to choose 3 books to read, regardless of the order), you'd use **combinations**.
+
+**Remember:**
+- Permutations overcount combinations.
+- If you're unsure, consider a smaller example and list out all the possibilities.
+
+#### Lecture(s) to Review:
+
+- [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
+- [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
+
+### Why do we need to divide by the number of orderings when going from permutations to combinations?
+
+When we transition from permutations to combinations, we're essentially removing the significance of order. To illustrate this, let's consider a simple example:
+
+Imagine we have 3 letters: A, B, and C. We want to choose 2 of them.
+
+If order matters, we have the following possibilities: AB, AC, BA, BC, CA, CB.
+Therefore there are 6 permutations.
+
+If order doesn't matter, we only care about the *groups* of 2 letters, not the specific order within each group. So, the following groups are considered the same:
+
+- AB , BA
+- AC , CA
+- BC , CB
+
+Each group of 2 letters has 2! (2 factorial) = 2 different orderings. To get the number of combinations, we need to divide the total number of permutations by the number of orderings for each group. 
+
+Combinations = Permutations / Number of Orderings per Group
+Combinations = 6 / 2 = 3
+
+Generalizing the Concept: 
+For any group of k items chosen from a set of n items, there are k! ways to arrange those k items. So, to get the number of combinations, we divide the number of permutations by k!:
+
+Combinations = Permutations / k!
+
+This division removes the impact of order, leaving us with the number of unique groups or combinations.
+
+#### Lecture(s) to Review:
+
+- [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
+
+### What is the difference between Sequences and Permutations?
+
+Permutations are a specific form of Sequences in which we sample without replacement. 
+For both sequences an permutations order matters (as opposed to sets and combinations).
+The main difference lies in the repetition of elements. In sequences, elements can be repeated, while in permutations, each element can only be used once.
+
+Example:
+
+- Sequences: Creating a 3-digit PIN code using digits 0-9. You can repeat digits, and the order matters (123 is different from 321).
+- Permutations: Arranging 5 people in a line. Each person can only be in one position, and the order of the people matters.
+
+#### Lecture(s) to Review:
+
+- [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
+- [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
+
+---
 
 ## Week 5: Gradient decent
 
@@ -66,6 +201,9 @@ $$y(x(t)) \geq f(x(t))$$
 
 $$ f(a)(1-t)+f(b)t \geq  f(a(1-t)+bt) $$
 
+#### Lecture(s) to Review:
+
+- [Lecture 16](https://dsc40a.com/resources/lectures/lec16/lec16-filled.pdf)
 
 ---
 
