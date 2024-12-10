@@ -141,12 +141,12 @@ This division removes the impact of order, leaving us with the number of unique 
 
 Permutations are a specific form of Sequences in which we sample without replacement. 
 For both sequences and permutations order matters (as opposed to sets and combinations).
-The main difference lies in the repetition of elements. In sequences, elements can be repeated (or not), while in permutations, each element can only be used once.
+The main difference lies in the repetition of elements: sequences can be with or without replacement. In permutations, each element can only be used once (i.e. a sequence without replacement).
 
 Example:
 
 - Sequences: Creating a 3-digit PIN code using digits 0-9. You can repeat digits, and the order matters (123 is different from 321).
-- Permutations: Arranging 5 people in a line. Each person can only be in one position, and the order of the people matters.
+- Permutations: Arranging 5 people in a line. Each person can only be in one position, and the order of the people matters (like the example of choosing a president, vice president, and treasurer of club in lecture).
 
 #### Lecture(s) to Review:
 
