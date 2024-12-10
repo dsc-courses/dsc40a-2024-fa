@@ -140,8 +140,8 @@ This division removes the impact of order, leaving us with the number of unique 
 ### What is the difference between Sequences and Permutations?
 
 Permutations are a specific form of Sequences in which we sample without replacement. 
-For both sequences an permutations order matters (as opposed to sets and combinations).
-The main difference lies in the repetition of elements. In sequences, elements can be repeated, while in permutations, each element can only be used once.
+For both sequences and permutations order matters (as opposed to sets and combinations).
+The main difference lies in the repetition of elements. In sequences, elements can be repeated (or not), while in permutations, each element can only be used once.
 
 Example:
 
